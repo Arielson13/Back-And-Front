@@ -1,0 +1,18 @@
+* * * Criando API completa com NodeJS + Typescript e MongoDB * * *
+
+1. Vamos utilizar o gerenciador de pacotes YARN
+     yarn init -y
+2. Vamos utilizar o typescript como dependência de desenvolvimento 
+     yarn add typescript -D
+3. Vamos inicializar asconfigurações do typescript 
+     tsc --init
+4. Vamos instalar o framework fastfy para a criação da API
+     yarn add fastify @fastify/cors
+5. Vamos instalar a biblioteca TSX que é responsável por rodar os arquivos typescript
+     yarn add tsx
+6. Vamos instalar os types do node c
+     yarn add @types/node -D
+7. Vamos instalar o Prisma
+     yarn add prisma -D
+8. PARA EXECUTAR O PRISMA USA-SE O SEGUINTE COMANDO:
+     npx prisma studio

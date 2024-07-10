@@ -1,0 +1,15 @@
+Para o frontend desta aplicação foi utilizado o gerenciador de pacotes npm
+
+1. Inicializamos com o vite
+     npm create vite@latest
+2. Utilizaremos o framework de estilização em css Tailwind CSS
+     npm install -D tailwindcss postcss autoprefixer
+3. Inicializamos o arquivo de configuração do tailwindcss
+     npx tailwindcss init -p
+     Configuramos com os templates recomendado no site do framework
+     Adicionamos as diretivas do tailwind no arquivo de css principal da nossa aplicação.
+4. Instalamos o Framework de Icones do react
+     npm install react-icons
+5. Instalamos o Axios. Um framework de conexão com a nossa API
+     npm install axios 
+      
